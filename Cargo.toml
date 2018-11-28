@@ -9,7 +9,16 @@ license = "MIT"
 readme = "README.md"
 authors = ["Jordan Mackie <jmackie@protonmail.com>"]
 keywords = ["garmin", "fit", "running", "cycling", "power"]
-exclude = ["/testdata/**", "/examples/**","/sdk/**", "/rustfmt.toml", "/Makefile"]
+exclude = [
+    # Directories
+    "/testdata/**",
+    "/examples/**",
+    "/sdk/**",
+    # Files
+    "/rustfmt.toml",
+    "/Makefile",
+    "/.travis.yml"
+]
 
 [dependencies]
 byteorder = "1"
