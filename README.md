@@ -1,5 +1,7 @@
 # `garminfit`
 
+[![Build Status](https://travis-ci.org/jmackie/garminfit.svg?branch=master)](https://travis-ci.org/jmackie/garminfit)
+
 _Flexible and Interoperable Data Transfer_ (FIT) Protocol
 
 WIP library for encoding and decoding Garmin's binary file format.

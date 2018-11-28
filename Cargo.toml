@@ -2,8 +2,14 @@
 name = "garminfit"
 version = "0.1.0"
 description = "Garmin FIT binary file reading"
+documentation = "https://docs.rs/garminfit"
+homepage = "https://github.com/jmackie/garminfit"
+repository = "https://github.com/jmackie/garminfit"
+license = "MIT"
+readme = "README.md"
 authors = ["Jordan Mackie <jmackie@protonmail.com>"]
-keywords = ["garmin", "fit", "cycling", "power"]
+keywords = ["garmin", "fit", "running", "cycling", "power"]
+exclude = ["/testdata/**", "/examples/**","/sdk/**", "/rustfmt.toml", "/Makefile"]
 
 [dependencies]
 byteorder = "1"
