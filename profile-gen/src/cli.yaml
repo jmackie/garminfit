@@ -1,0 +1,35 @@
+name: garminfit-profile-gen
+version: "0.1.0"
+author: Jordan Mackie <jmackie@protonmail.com>
+about: Generates rust modules from the Profile.xlsx provided with the FIT SDK.
+args:
+    - output_dir:
+        short: o
+        long: output-dir
+        value_name: DIR
+        help: Directory in which
+        required: true
+        takes_value: true
+    - profile_xlsx:
+        help: Path to the Profile.xlsx file provided in the root of the FIT SDK
+        required: true
+        value_name: PROFILE
+        index: 1
+
+    # Optional args
+    # -------------
+    - types_module_path:
+        long: types-module
+        value_name: FILE
+        help: "Basename for the generated types module (default: types.rs)"
+        takes_value: true
+    - mesgs_module_path:
+        long: messages-module
+        value_name: FILE
+        help: "Basename for the generated messages module (default: messages.rs)"
+        takes_value: true
+    - fit_sdk_version:
+        long: sdk-version
+        value_name: MAJOR.MINOR.PATCH
+        help: Added to the module header
+        takes_value: true

@@ -1,0 +1,13 @@
+# Lines should be of the form:
+# output file basename = url
+
+## python-fitparse
+python_fitparse_1.fit = https://github.com/dtcooper/python-fitparse/raw/master/tests/files/2013-02-06-12-11-14.fit
+python_fitparse_2.fit = https://github.com/dtcooper/python-fitparse/raw/master/tests/files/2015-10-13-08-43-15.fit
+
+## GoldenCheetah
+goldencheetah_1.fit = https://github.com/GoldenCheetah/GoldenCheetah/blob/master/test/rides/2012_01_11_11_51_01.fit
+goldencheetah_2.fit = https://github.com/GoldenCheetah/GoldenCheetah/blob/master/test/rides/2012_02_05_09_03_59.fit
+goldencheetah_3.fit = https://github.com/GoldenCheetah/GoldenCheetah/blob/master/test/rides/2013-04-11-17-32-50.fit
+goldencheetah_4.fit = https://github.com/GoldenCheetah/GoldenCheetah/blob/master/test/rides/2013-04-11-17-32-50.fit
+goldencheetah_5.fit = https://github.com/GoldenCheetah/GoldenCheetah/blob/master/test/rides/20130717_143733.fit

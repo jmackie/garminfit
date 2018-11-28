@@ -1,0 +1,55 @@
+# https://github.com/rust-lang-nursery/rustfmt/blob/master/Configurations.md
+
+# Stable
+use_small_heuristics         = "Max"
+force_explicit_abi           = true
+hard_tabs                    = false
+max_width                    = 80
+merge_derives                = true
+newline_style                = "Unix"
+remove_nested_parens         = true
+reorder_imports              = true
+reorder_modules              = true
+tab_spaces                   = 4
+use_field_init_shorthand     = true
+use_try_shorthand            = true
+
+# Unstable
+unstable_features            = true
+indent_style                 = "Block"
+binop_separator              = "Front"
+combine_control_expr         = false
+comment_width                = 60
+condense_wildcard_suffixes   = true
+control_brace_style          = "ClosingNextLine"
+disable_all_formatting       = false
+error_on_line_overflow       = false
+error_on_unformatted         = false
+fn_args_density              = "Tall"
+brace_style                  = "SameLineWhere"
+empty_item_single_line       = true
+fn_single_line               = false
+where_single_line            = false
+format_strings               = true
+imports_indent               = "Block"
+imports_layout               = "Vertical"
+merge_imports                = true
+match_block_trailing_comma   = true
+force_multiline_blocks       = true
+normalize_comments           = true
+reorder_impl_items           = true
+report_todo                  = "Never"
+report_fixme                 = "Never"
+skip_children                = false
+space_after_colon            = true
+space_before_colon           = false
+struct_field_align_threshold = 20
+spaces_around_ranges         = false
+struct_lit_single_line       = false
+trailing_comma               = "Vertical"
+trailing_semicolon           = false
+type_punctuation_density     = "Wide"
+wrap_comments                = true
+match_arm_blocks             = true
+blank_lines_upper_bound      = 1
+blank_lines_lower_bound      = 0

@@ -1,0 +1,14 @@
+[package]
+name = "garminfit-profile-gen"
+version = "0.1.0"
+authors = ["Jordan Mackie <jmackie@protonmail.com>"]
+
+[dependencies]
+Inflector = "0.11.3"
+calamine = "0.14.6"
+clap = { version = "2.32", features = ["yaml"] }
+failure = "0.1.2"
+itertools = "0.7.8"
+lazy_static = "1.1.0"
+proc-macro2 = "0.4.20"
+quote = "0.6.8"
